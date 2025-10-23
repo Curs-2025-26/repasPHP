@@ -1,0 +1,9 @@
+# client;comanda;unitats;preu_unitari
+ACME;A001;2;19.95
+ACME;A002;1;5
+FOO;F100;3;10.5
+BAR;B777;1;199.99
+# línia malformada:
+ACME;BADLINE;X;12
+FOO;F101;2;9.25
+;INCOMPLETA;1;3

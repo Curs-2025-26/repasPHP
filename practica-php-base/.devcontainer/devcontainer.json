@@ -1,0 +1,30 @@
+{
+  "name": "PHP Practica UF2 (BASE)",
+  "features": {
+    "ghcr.io/devcontainers/features/php:1": {
+      "version": "8.2",
+      "installComposer": false
+    }
+  },
+  "forwardPorts": [
+    8000
+  ],
+  "portsAttributes": {
+    "8000": {
+      "label": "PHP server",
+      "onAutoForward": "openBrowser"
+    }
+  },
+  "postCreateCommand": "php -v",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "xdebug.php-pack",
+        "bmewburn.vscode-intelephense-client"
+      ],
+      "settings": {
+        "editor.formatOnSave": true
+      }
+    }
+  }
+}

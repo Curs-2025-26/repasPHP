@@ -1,0 +1,12 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Open PHP server (Codespaces)",
+      "type": "chrome",
+      "request": "launch",
+      "url": "http://localhost:8000",
+      "preLaunchTask": "Serve PHP (localhost:8000)"
+    }
+  ]
+}
